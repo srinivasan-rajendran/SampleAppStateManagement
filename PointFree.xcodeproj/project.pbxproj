@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		FF1CCBE7252B90CE00807D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1CCBE6252B90CE00807D03 /* AppDelegate.swift */; };
 		FF1CCBE9252B90CE00807D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1CCBE8252B90CE00807D03 /* SceneDelegate.swift */; };
-		FF1CCBEB252B90CE00807D03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1CCBEA252B90CE00807D03 /* ContentView.swift */; };
+		FF1CCBEB252B90CE00807D03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1CCBEA252B90CE00807D03 /* HomeView.swift */; };
 		FF1CCBED252B90D000807D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1CCBEC252B90D000807D03 /* Assets.xcassets */; };
 		FF1CCBF0252B90D000807D03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1CCBEF252B90D000807D03 /* Preview Assets.xcassets */; };
 		FF1CCBF3252B90D000807D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1CCBF1252B90D000807D03 /* LaunchScreen.storyboard */; };
+		FF1CCBFC252B90F800807D03 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1CCBFB252B90F800807D03 /* State.swift */; };
+		FF1CCBFF252B915F00807D03 /* FavouritePrimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1CCBFE252B915F00807D03 /* FavouritePrimesView.swift */; };
+		FF1CCC02252B916A00807D03 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1CCC01252B916A00807D03 /* CounterView.swift */; };
+		FFA76399252B9BCD00A69596 /* PrimeModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA76398252B9BCD00A69596 /* PrimeModalView.swift */; };
+		FFA764AB252CF31000A69596 /* AppArchitecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA764AA252CF31000A69596 /* AppArchitecture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF1CCBE3252B90CE00807D03 /* PointFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1CCBE6252B90CE00807D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF1CCBE8252B90CE00807D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF1CCBEA252B90CE00807D03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF1CCBEA252B90CE00807D03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FF1CCBEC252B90D000807D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF1CCBEF252B90D000807D03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF1CCBF2252B90D000807D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF1CCBF4252B90D000807D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1CCBFB252B90F800807D03 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		FF1CCBFE252B915F00807D03 /* FavouritePrimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritePrimesView.swift; sourceTree = "<group>"; };
+		FF1CCC01252B916A00807D03 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		FFA76398252B9BCD00A69596 /* PrimeModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeModalView.swift; sourceTree = "<group>"; };
+		FFA764AA252CF31000A69596 /* AppArchitecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppArchitecture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,8 @@
 			children = (
 				FF1CCBE6252B90CE00807D03 /* AppDelegate.swift */,
 				FF1CCBE8252B90CE00807D03 /* SceneDelegate.swift */,
-				FF1CCBEA252B90CE00807D03 /* ContentView.swift */,
+				FF1CCC05252B925F00807D03 /* State */,
+				FF1CCC06252B926900807D03 /* Views */,
 				FF1CCBEC252B90D000807D03 /* Assets.xcassets */,
 				FF1CCBF1252B90D000807D03 /* LaunchScreen.storyboard */,
 				FF1CCBF4252B90D000807D03 /* Info.plist */,
@@ -73,6 +84,26 @@
 				FF1CCBEF252B90D000807D03 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF1CCC05252B925F00807D03 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CCBFB252B90F800807D03 /* State.swift */,
+				FFA764AA252CF31000A69596 /* AppArchitecture.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		FF1CCC06252B926900807D03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CCBFE252B915F00807D03 /* FavouritePrimesView.swift */,
+				FF1CCBEA252B90CE00807D03 /* HomeView.swift */,
+				FFA76398252B9BCD00A69596 /* PrimeModalView.swift */,
+				FF1CCC01252B916A00807D03 /* CounterView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1CCBFF252B915F00807D03 /* FavouritePrimesView.swift in Sources */,
 				FF1CCBE7252B90CE00807D03 /* AppDelegate.swift in Sources */,
 				FF1CCBE9252B90CE00807D03 /* SceneDelegate.swift in Sources */,
-				FF1CCBEB252B90CE00807D03 /* ContentView.swift in Sources */,
+				FF1CCBEB252B90CE00807D03 /* HomeView.swift in Sources */,
+				FFA764AB252CF31000A69596 /* AppArchitecture.swift in Sources */,
+				FF1CCBFC252B90F800807D03 /* State.swift in Sources */,
+				FF1CCC02252B916A00807D03 /* CounterView.swift in Sources */,
+				FFA76399252B9BCD00A69596 /* PrimeModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
